@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Reset default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation list styling */
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* List item styling */
+li {
+    margin: 0 15px;
+}
+
+/* Anchor (link) styling */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #db7093
+}
+
+/* Anchor hover effect */
+a:hover {
+    background-color: #555;
+}
+
+/* Logo styling */
+.Owner_Logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Button styling */
+button {
+    color: red;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    color: #ff6666;
+    background-color: #eee;
+}
