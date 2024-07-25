@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.com">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>SS Beauty : Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="" th:href="@{/css/Navigation.css}" />
+	<link rel="stylesheet" href="" th:href="@{css/Home.css}" />
+</head>
+
+<body>
+	<nav th:replace="~{Navigation::navbar()}"></nav>
+
+	<div class="back">
+		<center style="height:180px;"><div class="text">
+			<h1>Discover Beauty Blossom</h1>
+			<h3 style="font-family:cursive">Where Elegance Unfolds! <br /> Indulge in our exquisite collection of beauty essentials and reveal your timeless radiance.</h3>
+		</div></center>
+		<video src="/Videos/back_video.mov" loop autoplay muted></video>
+	</div>
+</body>
+
+</html>

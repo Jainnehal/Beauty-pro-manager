@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #f0eae5; /* Light cream background for better readability */
+    font-family: 'Arial', sans-serif; /* Consistent font across the page */
+    color: #333; /* Dark grey color for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav {
+    position: fixed;
+    width: 100%
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Max container width */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #5c3c92; /* Deep purple for headings */
+    margin: 20px 0;
+}
+
+small {
+    color: #d62828; /* Red color for warnings */
+    font-weight: bold;
+}
+
+.location {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners for the map */
+    overflow: hidden; /* Ensures no overflow of content */
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Wider container on smaller screens */
+    }
+}
